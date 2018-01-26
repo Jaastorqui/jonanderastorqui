@@ -6,12 +6,12 @@
 @endlangrtl
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="Jon Ander is a responsive creative template">
-        <meta name="keywords" content="portfolio, personal, corporate, business, parallax, creative, agency">
+        <meta name="description" content="Web Site of Jon Ander Astorqui">
+        <meta name="keywords" content="Full stack developer, Web developer, Jon Ander, Jon Ander astorqui">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <title>@yield('title', app_name())</title>
-        <meta name="author" content="@yield('meta_author', 'Anthony Rappa')">
+        <meta name="author" content="@yield('meta_author', 'Jon Ander Astorqui')">
         @yield('meta')
 
         <!-- <link rel="stylesheet" href="css/bootstrap.min.css" > -->
@@ -50,6 +50,10 @@
         @stack('after-styles')
     </head>
     <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWJMV2N"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
         <div id="app">
             @yield('content')
         </div><!-- #app -->
