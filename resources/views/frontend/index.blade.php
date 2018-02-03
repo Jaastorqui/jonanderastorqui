@@ -46,12 +46,10 @@
                 <li><a href="#" data-scroll-nav="3">@lang('cv.menu.works')</a></li>
                 <li><a href="#" data-scroll-nav="4">@lang('cv.menu.contact')</a></li>
                 <li>
-                    <div class="dropdown">
-                        <a class="dropbtn">@lang('menus.language-picker.language')</a>
-                        <div class="dropdown-content">
-                            <a href="/lang/en">@lang('menus.language-picker.langs.en')</a>
-                            <a href="/lang/es">@lang('menus.language-picker.langs.es')</a>
-                        </div>
+                    <a class="dropbtn">@lang('menus.language-picker.language')</a>
+                    <div class="dropdown-content">
+                        <a href="/lang/en">@lang('menus.language-picker.langs.en')</a>
+                        <a href="/lang/es">@lang('menus.language-picker.langs.es')</a>
                     </div>
                 </li>
               </ul>
